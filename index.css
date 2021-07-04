@@ -138,7 +138,7 @@ body {
 
 .stats-card {
     height: 82%;
-    background-color: rgba(0, 0, 0, 0.129);
+    background-color: rgba(0, 0, 0, 0.17);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
