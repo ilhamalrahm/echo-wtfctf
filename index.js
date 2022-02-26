@@ -24,7 +24,7 @@ const countdownFunction = () => {
           minute = second * 60,
           hour = minute * 60,
           day = hour * 24;
-    const countDown = new Date("02/27/2022").getTime();
+    const countDown = new Date("02/27/2022 12:00:00").getTime();
     x = setInterval(function() {    
       const now = new Date().getTime(),
             distance = countDown - now;
