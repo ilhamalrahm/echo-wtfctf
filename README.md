@@ -8,3 +8,5 @@ A placeholder webpage created with pure HTML, CSS, JavaScript that echoes the st
 - February 2022
 
 Find the website [here](https://wtfctf.wearemist.in)
+
+Visit [MIST](https://wearemist.in) for more on the exciting activities of the club.
