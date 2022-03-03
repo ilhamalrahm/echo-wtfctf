@@ -209,6 +209,9 @@ body {
     margin-right: 10px;
 }
 
+/* uncomment when required */
+/* countdown styling */
+
 .countdown-wrapper {
     min-height: 75vh;
     min-width: 100vw;
@@ -265,6 +268,8 @@ li span {
   display: block;
   font-size: 4.5rem;
 }
+
+/* countdown styling ends */
 
 /* ipad designs */
 

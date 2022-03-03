@@ -13,26 +13,27 @@ const counter = (from, to, element, duration) => {
     window.requestAnimationFrame(step);
 }
 
-counter(0, 22, document.getElementById("questions"), 1000);
-counter(1300, 1392, document.getElementById("solves"), 2000);
-counter(900, 993, document.getElementById("users"), 1800);
-counter(700, 789, document.getElementById("teams"), 1500);
+counter(0, 18, document.getElementById("questions"), 1000);
+counter(950, 1203, document.getElementById("solves"), 2000);
+counter(200, 449, document.getElementById("users"), 1800);
+counter(100, 350, document.getElementById("teams"), 1500);
 
+// uncomment this when you need to use the countdown
 // animate the countdown
-const countdownFunction = () => {
-    const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-    const countDown = new Date("02/27/2022 12:00:00").getTime();
-    x = setInterval(function() {    
-      const now = new Date().getTime(),
-            distance = countDown - now;
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-    }, 0)
-}
+// const countdownFunction = () => {
+//     const second = 1000,
+//           minute = second * 60,
+//           hour = minute * 60,
+//           day = hour * 24;
+//     const countDown = new Date("02/27/2022 12:00:00").getTime();
+//     x = setInterval(function() {    
+//       const now = new Date().getTime(),
+//             distance = countDown - now;
+//         document.getElementById("days").innerText = Math.floor(distance / (day)),
+//         document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+//         document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+//         document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+//     }, 0)
+// }
 
-countdownFunction()
+// countdownFunction()
