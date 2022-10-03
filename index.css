@@ -53,7 +53,7 @@ body {
 /* content styles */
 
 .content-wrapper {
-    height: 60vh;
+    min-height: 60vh;
     width: 85%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -79,6 +79,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .text-array p:nth-child(5) {
@@ -137,7 +138,7 @@ body {
 }
 
 .stats-card {
-    height: 82%;
+    padding: 1rem 0;
     background-color: rgba(0, 0, 0, 0.17);
     display: -webkit-box;
     display: -ms-flexbox;
