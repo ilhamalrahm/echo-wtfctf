@@ -13,10 +13,10 @@ const counter = (from, to, element, duration) => {
     window.requestAnimationFrame(step);
 }
 
-counter(0, 18, document.getElementById("questions"), 1000);
-counter(950, 1203, document.getElementById("solves"), 2000);
-counter(200, 449, document.getElementById("users"), 1800);
-counter(100, 350, document.getElementById("teams"), 1500);
+counter(0, 6, document.getElementById("questions"), 1000);
+counter(0, 35, document.getElementById("solves"), 2000);
+counter(00, 29, document.getElementById("users"), 1800);
+counter(00, 21, document.getElementById("teams"), 1500);
 
 // uncomment this when you need to use the countdown
 // animate the countdown
